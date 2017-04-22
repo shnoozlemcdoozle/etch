@@ -11,13 +11,78 @@
   height: 10px;
   display: inline-block;
   float: left;
-  background-color: red;
+  background-color: lightgray;
 }
 
-.newunit {
+.newunitblue {
   width: 10px;
   height: 10px;
   display: inline-block;
   float: left;
   background-color: blue;
 }
+
+a {
+  display:block;
+  padding: 8px;
+  border: black solid 2px;
+  width: auto;
+}
+
+.colornav {
+  width: 100%;
+  height: 5em;
+  margin: auto;
+}
+
+li {
+  margin-left: 2;
+  margin-right: 2;
+  padding: 0;
+  list-style-type: none;
+  display: inline;
+  float:left;
+
+}
+
+.subnav {
+  width: 300px;
+  margin: auto;
+}
+
+a.bluebtn {
+  background-color: blue;
+}
+
+a.redbtn {
+  background-color: red;
+}
+
+a.greenbtn {
+  background-color: green;
+}
+
+a.erase {
+  background-color: lightgray;
+}
+
+.newunitred {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  float: left;
+  background-color: red;
+
+.newunitgreen {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  float: left;
+  background-color: green;
+
+.newuniterase {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  float: left;
+  background-color: lightgray;

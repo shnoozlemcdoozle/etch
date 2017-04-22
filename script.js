@@ -32,7 +32,7 @@ $(document).ready(function() {
   })
   $('.unit').mouseover(function() {
   if (mouseIsPressed) {
-  	$(this).removeClass().addClass('newunit')
+  	$(this).removeClass().addClass('newunitblue')
   }
 
 });
