@@ -1,0 +1,23 @@
+#container {
+  margin: auto;
+  background-color: white;
+  border: solid black 1px;
+  width: 160px;
+  height: 160px;
+}
+
+.unit {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  float: left;
+  background-color: red;
+}
+
+.newunit {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  float: left;
+  background-color: blue;
+}
