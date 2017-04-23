@@ -1,7 +1,7 @@
 #container {
 margin: auto;
 background-color: white;
-border: solid black 1px;
+border: ridge black 7px;
 width: 160px;
 height: 160px;
 }

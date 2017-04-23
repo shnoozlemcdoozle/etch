@@ -25,7 +25,6 @@ $(document).ready(function() {
   var color = ['blue', 'red', 'green', 'erase'];
   color = color[0];
 
-
   $("#bluebtn").click(function() {
     color = 'blue';
 
@@ -43,7 +42,9 @@ $(document).ready(function() {
 
   });
 
-
+$("#resetbtn").click(function() {
+  	location.reload();
+	});
 
   mouseIsPressed = false;
   $('.unit').mousedown(function() {
