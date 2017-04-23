@@ -31,7 +31,7 @@ width: auto;
 
 .colornav {
 width: 100%;
-height: 5em;
+height: 3em;
 margin: auto;
 }
 
@@ -55,6 +55,13 @@ text-decoration: none;
 color: white;
 font-weight: heavy;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#resetbtndiv {
+width: 100px;
+margin: auto;
+background-color: black;
+text-align: center;
 }
 
 a#bluebtn {
